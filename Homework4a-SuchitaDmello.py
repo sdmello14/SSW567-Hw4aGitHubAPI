@@ -33,7 +33,10 @@ import unittest
 """unitTest to test git hub api"""
 class TestGitHubAPI(unittest.TestCase):
     def test_repo_commit(self):
+        """test total repository"""
         self.assertEqual(13, len(get_Repo_commits("sdmello14")))
+
+        """test the number of commit in repository"""
         self.assertEqual(1, get_Repo_commits("sdmello14").get("Homework-ssw810"))
         self.assertEqual(23, get_Repo_commits("sdmello14").get("CS555tmJQSS2018Spring"))
         self.assertIsNone(get_Repo_commits("sdmello14").get("abc"))
