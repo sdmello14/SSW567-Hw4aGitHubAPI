@@ -1,3 +1,3 @@
-# ssw567-Hw4a
+# ssw567-Hw5a
 
-[![build status of master](https://travis-ci.org/sdmello14/SSW567-Hw4aGitHubAPI.svg?branch=master)](https://travis-ci.org/sdmello14/SSW567-Hw4aGitHubAPI)
+[![build status of HW05a_Mocking](https://travis-ci.org/sdmello14/SSW567-Hw4aGitHubAPI.svg?branch=HW05a_Mocking)](https://travis-ci.org/sdmello14/SSW567-Hw4aGitHubAPI)
